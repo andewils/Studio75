@@ -1,0 +1,17 @@
+body {
+    font-family: 'Fjalla One', sans-serif;
+    background-color: black;
+}
+
+h1, h2, h3 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+}
+.jumbotron {
+    margin: 10;
+    padding: 10;
+    background-image: linear-gradient(#ffffff,#000000);
+}
