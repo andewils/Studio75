@@ -12,60 +12,53 @@
    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" />
-   <link rel="stylesheet" href="/style.css"/>
+   <link rel="stylesheet" href="css/style.css"/>
    <title>Studio75</title>   
 </head>
 
 <body data-spy="scroll" data-target="#navbarNav">
 
-    <!-- Home Section-->
-    <div id="home">
-      
-    </div>
-    <!-- End Home Section-->
-
-    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="img/s75_logo new.png"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a class="nav-link active" href="#"></i> Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-              <li class="nav-item"><a class="nav-link" href="#book">Book Now</a></li>
-            </ul>
+    <!--Navbar-->  
+      <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/s75_logo new.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarNav">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link active" href="#"></i>Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#book">Booking</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+              </ul>
+              
+            </div>
           </div>
-        </div>
-      </nav>
-        <!--Landing Page Section-->
+        </nav>
+       <!--End Navbar-->
+
+       <!--Landing Page Section-->
         <div class="landing">
             <div class="home-wrap">
                 <div class="home-inner">
-
+                  <div class="caption text-center text-light">
+                    <h1>Welcome to Studio75</h1>
+                    <h3>Recording Studio</h3>
+                    <a class="btn btn-outline-light btn-lg" href="#services">Enter</a>
+                  </div>
                 </div>
             </div>
         </div>
+      <!--End Landing Page Section-->
 
-        <div class="caption text-center">
-          <h1>Welcome to Studio75</h1>
-          <h3>Recording Studio</h3>
-          <a class="btn btn-outline-light btn-lg" href="#services">Enter</a>
-        </div>
-        <!--End Landing Page Section-->
-
-        <!-- Services Section-->
+      <!-- Services Section-->
         <div id="services" class="offset">
-          <div class="jumbotron">
+          <div class="jumbotron jumbotron-fluid">
             <div class="narrow">
-
-              <div class="col-12">
+              <div class="col-12 text-center">
                 <h3 class="heading">Services</h3>
-                <div class="heading-underline"></div>
               </div>
-
               <div class="row text-center">
                 <div class="col-md-4">
                   <div class="services">
@@ -88,7 +81,7 @@
               <div class="col-md-4">
                 <div class="services">
                   <i class="fa fa-music fa-4x" data-fa-transform="shrink-4 up-5"></i>
-                  <h3>Music Prodution</h3>
+                  <h3>Music Production</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
@@ -98,29 +91,40 @@
         </div>
         <!-- End Services Section-->
 
-        <!-- Contact Section-->
-        <div id="contact" class="offset">
-          <div class="fixed-background">
-            <div class="row dark">
-
-            </div>
-
-              <div class="fixed-wrap">
-                  <div class="fixed">
-  
-                  </div>
-              </div>
-
-          </div>
-        </div>
-        <!-- End Contact Section-->
-
         <!-- Booking Section-->
         <div id="book" class="offset">
-          
-        </div>
+          <div class="book-wrap">
+            <div class="book-inner">
+                <div class="col-12 narrow text-center">
+                  <p class="lead">Want to book a session?</p>
+                  <a class="btn btn-outline-dark btn-md" href="https://square.site/book/LB7D7Y5P27W0G/studio-75-brooklyn-ny"
+                  target="_blank">Click Here</a>
+                </div>
+              </div>  
+            </div>  
+          </div>  
         <!-- End Booking Section-->
 
+        <!-- Contact Section-->
+        <div id="contact" class="offset">
+          <footer>
+
+            <div class="row justify-content-center">
+              <div class="col-md-5 text-center">
+                <img src="img/s75_logo new.png">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <strong>Contact Info</strong>
+                <p>(888) 888-8888<br>studio75ivebk@gmail.com</p>
+                <a href="https://www.instagram.com/studio75ive/" target="_blank"><i class="fa fa-instagram"></i></a>
+              </div>
+              <hr class="socket">
+              &copy; Studio75ive 
+            </div>
+          </footer>
+        </div>
+        <!-- End Contact Section-->
+      
         <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
