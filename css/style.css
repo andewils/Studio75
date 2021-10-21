@@ -22,12 +22,13 @@ h1, h2, h3 {
     font-size: .9rem;
     letter-spacing: .1rem;
 }
+
 .navbar-brand img {
     height: 2rem;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #000000;
-    padding: .8rem;
+    padding: .1rem;
 }
 
 .home-inner {
@@ -93,11 +94,11 @@ footer {
   margin-top: 2rem;
 }
 footer img {
-  height: 8rem;
-  margin: 1.5rem 0;
+  height: 3.5rem;
+  margin: 1.5rem;
 }
 footer a {
-  color: #ffffff;
+  color: #000000;
 }
 hr.socket {
   width: 100%;
@@ -107,13 +108,9 @@ hr.socket {
   .row, .container-fluid {
   margin-left: 0px;
   margin-right: 0px;
-  margin-top: 3rem;
+  margin-top: 0rem;
   }
-  
-  /*--- Fix for Fixed Navbar jumping on scroll --*/
-  .fixed-top  {
-   -webkit-backface-visibility: hidden;
-  }
+
   
   /*--- Fixed Landing Page Section --*/
   .landing {
